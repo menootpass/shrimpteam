@@ -41,9 +41,14 @@ export default function Home() {
         </h1>
 
         {/* Article Subtitle/Lead */}
-        <h2 className="text-2xl sm:text-3xl text-[#757575] font-normal mb-10 leading-relaxed font-serif">
-          Sebuah inovasi berkelanjutan yang mengubah limbah tambak udang menjadi pupuk organik berkualitas tinggi, mendukung Sustainable Development Goals 12 dan 15.
-        </h2>
+        <div className="mb-10">
+          <h2 className="text-2xl sm:text-3xl text-[#757575] font-normal mb-4 leading-relaxed font-serif">
+            Sebuah inovasi berkelanjutan yang mengubah limbah tambak udang menjadi pupuk organik berkualitas tinggi, mendukung Sustainable Development Goals 12 dan 15.
+          </h2>
+          <p className="text-xl sm:text-2xl text-[#242424] font-semibold italic leading-relaxed font-serif border-l-4 border-[#242424] pl-4">
+            "Eco Sea: Kompos Limbah Udang untuk Masa Depan Pantai"
+          </p>
+        </div>
 
         {/* Article Image */}
         <figure className="mb-10">
@@ -58,7 +63,7 @@ export default function Home() {
             />
           </div>
           <figcaption className="text-sm text-[#757575] mt-3 text-center">
-            Ilustrasi proses transformasi limbah tambak udang menjadi pupuk organik
+            Foto tim bersama produk limbah tambak udang
           </figcaption>
         </figure>
 
@@ -84,6 +89,22 @@ export default function Home() {
             <p>
               Proses fermentasi ini memakan waktu lebih singkat dibandingkan dengan metode kompos tradisional, sehingga menghasilkan pupuk organik yang siap digunakan dalam waktu yang lebih cepat. Mikroorganisme yang digunakan dalam proses ini tidak hanya mempercepat dekomposisi, tetapi juga meningkatkan kandungan nutrisi dalam pupuk akhir.
             </p>
+
+            {/* Pupuk Image */}
+            <figure className="my-10">
+              <div className="w-full relative rounded-lg overflow-hidden">
+                <Image
+                  src="/pupuk.png"
+                  alt="Pupuk Cepat Glagah"
+                  width={1200}
+                  height={600}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <figcaption className="text-sm text-[#757575] mt-3 text-center">
+                Produk pupuk organik hasil transformasi limbah tambak udang
+              </figcaption>
+            </figure>
 
             <h2 className="text-3xl font-bold text-[#242424] mt-12 mb-6 font-serif">
               Manfaat untuk Lingkungan
