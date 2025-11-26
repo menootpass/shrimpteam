@@ -19,8 +19,14 @@ export default function Home() {
         {/* Author Section */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-full bg-[#e6e6e6] flex items-center justify-center overflow-hidden">
-              <span className="text-sm font-medium text-[#757575]">ST</span>
+            <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
+              <Image
+                src="/carousel.png"
+                alt="Shrimp Team"
+                width={40}
+                height={40}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <div className="text-sm font-medium text-[#242424]">Shrimp Team</div>
