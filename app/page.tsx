@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex items-center gap-3 mb-4">
             <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
               <Image
-                src="/carousel.png"
+                src="/logo.png"
                 alt="Shrimp Team"
                 width={40}
                 height={40}
